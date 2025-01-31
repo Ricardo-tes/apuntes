@@ -1,0 +1,13 @@
+  1.  :!mandato  ejecuta un mandato externo.
+
+      Algunos ejemplos útiles son:
+          :!dir - muestra el contenido de un directorio.
+          :!del NOMBRE_DE_FICHERO  -  borra el fichero NOMBRE_DE FICHERO.
+
+  2.  :#,#w NOMBRE_DE _FICHERO  guarda desde las líneas # hasta la # en el
+     fichero NOMBRE_DE_FICHERO.
+
+  3.  :r NOMBRE_DE _FICHERO  recupera el fichero del disco NOMBRE_DE FICHERO
+     y lo inserta en el fichero en curso a partir de la posición del cursor.
+
+
