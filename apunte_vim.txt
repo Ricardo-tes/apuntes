@@ -1,13 +1,36 @@
+u deshace una acción
+U deshace lo hecho sobre una linea
+ctrl- R rehace
+p pone  el ultimo elemento borrado que al  parecer no se borra sino que se almacena.
+r + letra a reemplazar
+cw cambia palabra, desde donde está el cursor hasta el final de la palabra
+ctrl g muestra la posicion en el archivo
+shift g te manda al final del archivo
+numero de linea seguido de shift g te manda a esa linea 
+/ elemento a buscar, busca hacia abajo
+? elemento a buscar, busca hacia arriba
+n siguiente elemento encontrado
+shift n anterior elemento encontrado
+% te manda al ([{ o }]) correspondiente
+para cambiar el primer viejo por lo nuevo en una linea escriba :s/viejo/nuevo/
+para cambiar todo lo viejo por lo nuevo en una linea escriba :s/viejo/nuevo/g
+para cambiar todo lo viejo por nuevo entre dos lineas escriba :linea1,linea2s/viejo/nuevo/g
+para cambiar todo lo viejo por lo nuevo en todo el fichero escriba :%s/viejo/nuevo/g
+para cmbiar todo lo viejo por lo nuevo en todo el fichero pero confirmando caso por caso escriba :%s/viejo/nuevo/gc
   1.  :!mandato  ejecuta un mandato externo.
 
       Algunos ejemplos útiles son:
-          :!dir - muestra el contenido de un directorio.
-          :!del NOMBRE_DE_FICHERO  -  borra el fichero NOMBRE_DE FICHERO.
+	  :!dir - muestra el contenido de un directorio.
+	  :!del NOMBRE_DE_FICHERO  -  borra el fichero NOMBRE_DE FICHERO.
 
   2.  :#,#w NOMBRE_DE _FICHERO  guarda desde las líneas # hasta la # en el
      fichero NOMBRE_DE_FICHERO.
 
   3.  :r NOMBRE_DE _FICHERO  recupera el fichero del disco NOMBRE_DE FICHERO
-     y lo inserta en el fichero en curso a partir de la posición del cursor.
-
-
+     y lo inserta en el fichero en curso a partir de la posición del cursor
+ggVG selecciona todo
+gg"+yG o :%y luego intro copia todo al portapapeles
+gg>G indenta
+gg<G dedenta
+:pwd muestra directorio de trabajo
+:cd coso cambia el directorio de trabbajo
